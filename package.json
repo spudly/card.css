@@ -1,6 +1,6 @@
 {
   "name": "card.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS for a flippable card",
   "style": "index.css",
   "scripts": {
@@ -15,5 +15,7 @@
     "postcss-cli": "^2.5.2",
     "postcss-nested": "^1.0.0"
   },
-  "files": ["index.css"]
+  "files": [
+    "index.css"
+  ]
 }
