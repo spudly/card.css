@@ -1,10 +1,10 @@
 {
   "name": "card.css",
-  "version": "1.0.1",
   "description": "CSS for a flippable card",
   "style": "index.css",
   "scripts": {
-    "demo": "postcss -u postcss-nested -o demo/demo.css index.css && open demo/demo.html"
+    "demo": "postcss -u postcss-nested -o demo/demo.css index.css && open demo/demo.html",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "css"
@@ -13,9 +13,14 @@
   "license": "MIT",
   "devDependencies": {
     "postcss-cli": "^2.5.2",
-    "postcss-nested": "^1.0.0"
+    "postcss-nested": "^1.0.0",
+    "semantic-release": "^4.3.5"
   },
   "files": [
     "index.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spudly/card.css.git"
+  }
 }
