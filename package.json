@@ -14,5 +14,6 @@
   "devDependencies": {
     "postcss-cli": "^2.5.2",
     "postcss-nested": "^1.0.0"
-  }
+  },
+  "files": ["index.css"]
 }
