@@ -13,7 +13,7 @@
   "license": "MIT",
   "peerDependencies": {
     "postcss-cli": "^2.5.2",
-    "postcss-nested": "^1.0.0",
+    "postcss-nested": "^1.0.0"
   },
   "devDependencies": {
     "postcss-cli": "^2.5.2",
