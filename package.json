@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "postcss-cli": "^2.5.2",
-    "postcss-nested": "^1.0.0",
+    "postcss-nested": "^2.0.4",
     "semantic-release": "^6.3.2"
   },
   "files": [
